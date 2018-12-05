@@ -182,9 +182,9 @@ img::-moz-selection {
 }
 
 header.masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background: no-repeat center center;
-  background-color: #d35400;
+  background-color: #e67e22;
   background-attachment: scroll;
   position: relative;
   background-size: cover;
@@ -273,6 +273,15 @@ header.masthead .post-heading .meta a {
   header.masthead .post-heading .subheading {
     font-size: 30px;
   }
+}
+
+.profile-area {
+  border-bottom: 1px solid transparent;
+  padding: 20px 20px;
+}
+
+.profile-detail {
+  padding-left: 0;
 }
 
 .post-preview>a {
