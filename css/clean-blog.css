@@ -288,6 +288,10 @@ header.masthead .post-heading .meta a {
   font-size: 45px;
 }
 
+.no-blog {
+  margin: 50px 0 150px;
+}
+
 .profile-area {
   border-bottom: 1px solid transparent;
   padding: 20px 20px;
@@ -406,7 +410,6 @@ form .form-group:first-child .floating-label-form-group {
 footer {
   background-color: #ecf0f1;
   padding: 50px 0 65px;
-  margin-top: 30px;
 }
 
 footer .list-inline {
@@ -446,4 +449,40 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+article h1 {
+  color: #333;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+article .title-pane {
+  margin-bottom: 30px;
+}
+
+article span.published_date {
+  color: #777;
+  padding-bottom: 10px;
+}
+
+article h2 {
+  color: #555;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+article p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #555;
+  font-weight: 400;
+  margin: 0 0 1.5em;
+}
+
+.main.container {
+  margin-bottom: 50px;
 }
