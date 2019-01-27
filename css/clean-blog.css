@@ -446,6 +446,23 @@ footer .copyright {
   border-color: #d35400 !important;
 }
 
+.badge-pill {
+  padding: 5px 10px;
+}
+
+.badge-primary {
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
+
+.badge-primary:hover,
+.badge-primary:focus,
+.badge-primary:active {
+  color: #fff;
+  background-color: #d35400 !important;
+  border-color: #d35400 !important;
+}
+
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;

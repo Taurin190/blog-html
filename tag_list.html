@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">Profile</a>
@@ -51,39 +51,11 @@
       </div>
     </div>
   </nav>
-
-  <!-- Page Header -->
-  <header class="masthead">
-    <!-- <div class="overlay"></div> -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>Koichi Taura's Page</h1>
-            <span class="subheading">Software Engineer</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
   <!-- Main Content -->
-  <div class="main container">
+  <div class="container">
     <div class="row">
-      <div id="profile" class="col-lg-8 col-md-10 mx-auto rounded profile-area ">
-        <h2 class="contents-title">Profile</h2>
-        <div class="float-left col-lg-8 col-md-7 profile-detail">
-          <h3>Taura, Koichi</h3>
-          東京でソフトウェアエンジニアとして働いていて。 PHP, Java, Pythonでバックエンドの開発を行っています。 Docker/Kubernetesへの環境構築移行も行なっております。
-        </div>
-        <div class="float-right col-lg-4 col-md-5 ">
-          <img class="img-fluid img-thumbnail" src="img/koichitaura.jpg">
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div id="blog" class="col-lg-8 col-md-10 mx-auto">
-        <h2 class="contents-title">Blogs</h2>
+      <div id="blog" class="main-contents col-lg-8 col-md-10 mx-auto">
+        <h1 class="contents-title">Blogs with "GCP" tag</h1>
         <div class="post-preview">
           <a href="post.html">
             <h3 class="post-title">
@@ -93,8 +65,6 @@
               Problems look mighty small from 150 miles up
             </h4>
           </a>
-          <a href="tag_list.html"><span class="badge badge-pill badge-primary">GCP</span></a>
-          <a href="tag_list.html"><span class="badge badge-pill badge-primary">ビジネス</span></a>
           <p class="post-meta">Posted by
             <a href="#">Start Bootstrap</a> on September 24, 2018</p>
         </div>
@@ -135,9 +105,18 @@
             <a href="#">Start Bootstrap</a> on July 8, 2018</p>
         </div>
         <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+        <div class="">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+              <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
