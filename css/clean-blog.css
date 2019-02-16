@@ -216,6 +216,13 @@ header.masthead .site-heading {
   color: white;
 }
 
+@media only screen and (max-width: 768px) {
+  .img-profile {
+    max-width: 250px;
+    margin: 10px 0;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   header.masthead .page-heading,
   header.masthead .post-heading,
