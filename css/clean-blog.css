@@ -510,3 +510,11 @@ article p {
 .main.container {
   margin-bottom: 50px;
 }
+
+.works-image {
+  object-fit: cover;
+}
+
+.work-img-container {
+  margin: 10px 0;
+}
